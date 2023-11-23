@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DiagramZwiazkowEncji_1.0" id="B5F9B15B-1FAE-1FF4-79C1-50BDFB4AD94F" version="3.5">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 18:11:28 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B5F9B15B-1FAE-1FF4-79C1-50BDFB4AD94F</designId>
+</OSDM_Design>

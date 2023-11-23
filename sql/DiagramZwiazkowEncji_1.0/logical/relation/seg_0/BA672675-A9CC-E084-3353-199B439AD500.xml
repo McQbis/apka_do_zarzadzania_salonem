@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Stanowisko_FK" directorySegmentName="seg_0" id="BA672675-A9CC-E084-3353-199B439AD500">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 18:55:07 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<engineerTo>
+<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+</engineerTo>
+<sourcePk>39B1C3FD-AC34-0A43-9118-E7F65E743559</sourcePk>
+<targetPk>03B25807-AA9E-7CCE-9B92-570590AC9632</targetPk>
+<identifying>true</identifying>
+<nameOnSource>ma</nameOnSource>
+<nameOnTarget>jest przypisany</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D39D9466-C3B1-F83F-E6A8-4FD6B08DC6B8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CCC41E75-CFE1-6C0C-E537-4ED95408DDC1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

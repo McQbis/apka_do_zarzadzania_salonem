@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Marki_FK" directorySegmentName="seg_0" id="B94997B2-2869-5C98-1C6E-F876751766BD">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 19:25:56 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<engineerTo>
+<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+</engineerTo>
+<sourcePk>0C275193-28D7-E5B1-E197-9A8F4A9CC972</sourcePk>
+<targetPk>E02B2709-8622-E41A-7F92-0AABCB956F64</targetPk>
+<identifying>true</identifying>
+<nameOnSource>ma</nameOnSource>
+<nameOnTarget>należy</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F777AE26-5AF5-9293-3B1F-4EF41D3C9FA1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5E9855A-CE95-D9F9-83C9-11A4685BED71</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

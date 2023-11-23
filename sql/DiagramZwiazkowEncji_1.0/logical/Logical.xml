@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E5873923-CA04-59CA-786C-8004C322B722" mainViewID="09D8B96A-CCC2-F42F-DC5D-FDC0170F1C91">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 18:11:28 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

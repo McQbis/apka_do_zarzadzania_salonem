@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCA033EE-E3BC-F1F4-D4C4-F7554CA45F09" name="Silnik">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 18:26:20 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<engineerTo>
+<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="4864DDDE-4771-60BF-D0EE-38AFF3F3CA2C">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 19:26:19 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<engineerTo>
+<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pojemność" id="49C2C2DB-306E-F25E-9C2E-787FD306E63F">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 19:26:40 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<engineerTo>
+<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rodzaj paliwa" id="B9CFD35A-738D-55E9-AA5E-201A7B06A02A">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 19:26:50 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<engineerTo>
+<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Spalanie na 100km" id="1677D759-EEB2-BC56-67A7-6A0082F489D8">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 19:27:11 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<engineerTo>
+<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,50,50</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1737673-B34C-8F9D-8CE1-4446C71ED683" name="Silniki PK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 19:26:29 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<engineerTo>
+<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4864DDDE-4771-60BF-D0EE-38AFF3F3CA2C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

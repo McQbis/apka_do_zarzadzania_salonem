@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Klient_zamowienia_FK" directorySegmentName="seg_0" id="8A3BB4CE-E12D-C4F3-7D5A-9FCBC49656AC">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 19:34:42 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<engineerTo>
+<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+</engineerTo>
+<sourcePk>48FAC50C-FE08-8025-4754-E02CA6F313BD</sourcePk>
+<targetPk>BDDB6C15-795F-8415-F1D9-7C2807ACDDD3</targetPk>
+<identifying>false</identifying>
+<nameOnSource>dotyczy</nameOnSource>
+<nameOnTarget>składa</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>493064F9-2430-670F-0349-62B0633D1C98</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4FD05C1B-6ECB-D2E0-E0C5-0EBD62F7582C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

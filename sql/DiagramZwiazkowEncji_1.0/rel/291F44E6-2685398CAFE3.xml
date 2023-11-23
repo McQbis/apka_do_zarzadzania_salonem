@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="291F44E6-111F-B101-828D-2685398CAFE3" mainViewID="AB643731-8E7F-A083-13E3-6DD97E3DE312">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 18:11:31 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

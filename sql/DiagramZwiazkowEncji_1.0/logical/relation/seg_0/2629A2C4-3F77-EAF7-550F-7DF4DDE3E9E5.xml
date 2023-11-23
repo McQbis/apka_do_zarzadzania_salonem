@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Silnik_FK" directorySegmentName="seg_0" id="2629A2C4-3F77-EAF7-550F-7DF4DDE3E9E5">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 19:27:52 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<engineerTo>
+<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+</engineerTo>
+<sourcePk>E1737673-B34C-8F9D-8CE1-4446C71ED683</sourcePk>
+<targetPk>F675AF60-B035-9FF8-2328-005AE5D27074</targetPk>
+<identifying>true</identifying>
+<nameOnSource>ma</nameOnSource>
+<nameOnTarget>zamontowany</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CCA033EE-E3BC-F1F4-D4C4-F7554CA45F09</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5E9855A-CE95-D9F9-83C9-11A4685BED71</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

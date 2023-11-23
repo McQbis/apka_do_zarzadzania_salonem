@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Serwisant_FK" directorySegmentName="seg_0" id="1912C92C-9B74-3BEC-E82B-8029E13B370A">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-09 19:08:06 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<engineerTo>
+<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+</engineerTo>
+<sourcePk>C492F9FB-34A5-7CF8-28C9-87369E15A969</sourcePk>
+<targetPk>B72203E7-4320-921E-E3C8-9DE0D28B995D</targetPk>
+<identifying>true</identifying>
+<nameOnSource>jest przypisana</nameOnSource>
+<nameOnTarget>jest przypisany</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CCC41E75-CFE1-6C0C-E537-4ED95408DDC1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>606B8545-1C05-667F-2936-787FDBC033CC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
