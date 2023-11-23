@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE28ECD7-40D9-79D8-2F1B-324610C971E6" name="Stanowisko">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<generatorID>D39D9466-C3B1-F83F-E6A8-4FD6B08DC6B8</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CD546269-1D4F-EDB8-F1FF-168567367BA1">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<generatorID>8570BB78-4F70-0E1C-8AD4-634B04B6FC77</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="23CB33C7-42A2-0249-956B-207E8F462ECE">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<generatorID>DDF16BAA-498B-5928-7B89-BEA2E7D5517D</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stawka_za_godzinę" id="161D9AC2-8BBD-7506-9634-8284451EE9C6">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<generatorID>6F0BF212-6099-B10A-D516-3F46CA2B9268</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,50,50</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4836B40C-737E-5C6B-398B-CE99CEF00C6F" name="Stanowisko_PK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<generatorID>39B1C3FD-AC34-0A43-9118-E7F65E743559</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD546269-1D4F-EDB8-F1FF-168567367BA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

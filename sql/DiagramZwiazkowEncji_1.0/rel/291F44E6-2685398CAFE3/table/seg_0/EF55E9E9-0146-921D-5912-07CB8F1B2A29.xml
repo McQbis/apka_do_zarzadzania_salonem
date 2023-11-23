@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF55E9E9-0146-921D-5912-07CB8F1B2A29" name="Samochód_zamowienia_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Samochód_ID" id="636368A7-06A0-D582-E464-06D143F92B47">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FCD2F38-99BC-2D42-508B-FCD3F31112E3" referredColumn="1C2538FF-6CCB-1C18-59B8-37E38168CBCB"/>
+</associations>
+</Column>
+<Column name="Samochód_Marka_ID" id="6BC2EE40-AC90-655E-B69F-DA17B1E25BB9">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FCD2F38-99BC-2D42-508B-FCD3F31112E3" referredColumn="534DD38E-660A-6DB7-D122-B9E8B10EDC7B"/>
+</associations>
+</Column>
+<Column name="Samochód_ID2" id="824C1C74-0D21-A22A-D70B-B36F7C32E7AA">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FCD2F38-99BC-2D42-508B-FCD3F31112E3" referredColumn="26C51224-9168-395A-2EDC-1CD8F3944103"/>
+</associations>
+</Column>
+<Column name="Samochód_Rodzaj_samochodu_ID" id="49DC2C63-00A5-A1A6-5ADE-08EFCD04590A">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FCD2F38-99BC-2D42-508B-FCD3F31112E3" referredColumn="FABEE476-D422-7D3A-8D71-68C5BDD97246"/>
+</associations>
+</Column>
+<Column name="Zamówienie_ID" id="F0E282EA-FE2B-FEE1-BD84-8428C13D6D67">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2A84DAB-1F7D-1F90-ECB5-BF436D02B390" referredColumn="79A0F8FC-98AD-8FE4-5025-75686112158B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="792AEA88-CCEF-1B5C-B7E0-A72F837A7E6E" name="Samochód_zamowienia_FK_PK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="636368A7-06A0-D582-E464-06D143F92B47"/>
+<colUsage columnID="6BC2EE40-AC90-655E-B69F-DA17B1E25BB9"/>
+<colUsage columnID="824C1C74-0D21-A22A-D70B-B36F7C32E7AA"/>
+<colUsage columnID="49DC2C63-00A5-A1A6-5ADE-08EFCD04590A"/>
+<colUsage columnID="F0E282EA-FE2B-FEE1-BD84-8428C13D6D67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64679E31-B7F6-AA81-4903-824E8AC062BE" name="Samochód_zamowienia_FK_Samochód_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<generatorID>DBB63A52-4179-0E78-4959-C764FDF9118B</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="636368A7-06A0-D582-E464-06D143F92B47"/>
+<colUsage columnID="6BC2EE40-AC90-655E-B69F-DA17B1E25BB9"/>
+<colUsage columnID="824C1C74-0D21-A22A-D70B-B36F7C32E7AA"/>
+<colUsage columnID="49DC2C63-00A5-A1A6-5ADE-08EFCD04590A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFF941B4-FDEF-7F23-6E03-DF02BAD425CC" name="Samochód_zamowienia_FK_Zamówienie_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-23 17:21:59 UTC</createdTime>
+<generatorID>DBB63A52-4179-0E78-4959-C764FDF9118B</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0E282EA-FE2B-FEE1-BD84-8428C13D6D67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
