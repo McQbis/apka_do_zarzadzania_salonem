@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6ADE53DD-0CF4-A23C-A9E7-15AF6F59DA18" name="Usługa_serwisowa">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>606B8545-1C05-667F-2936-787FDBC033CC</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Opis" id="9AD05584-8077-F833-522A-418F688F8F1D">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>64A91321-691E-5B73-42A4-EA0C1C513505</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wartość" id="2442AD38-F894-6B74-A83A-8AD22D9D954B">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>4FCE3AEF-2E1E-096D-9A43-FA5DDF31E14F</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,50,50</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Czas_naprawy" id="05246D03-331D-400A-108F-FAFD71286FE4">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>25E686A3-9D97-90A8-C559-932CBE1A912E</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pracownik_ID" id="66DD1F3C-AC11-0255-4E83-9F20F23022A4">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>E3DFB2A4-FD7C-86A1-73EF-AF9E159FE01F</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12F87A25-107E-5718-BDD1-B9DA33C3B291" referredColumn="7AD8EB32-FFE6-2C66-BF43-31496447DF6D"/>
+</associations>
+</Column>
+<Column name="Samochód_ID" id="DFE8B419-8C78-15B3-E568-578DF7A47C0E">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>D50B4A56-72B7-B53C-7159-ED7025E480B2</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E794ED7-6150-C129-9E6D-97062B01E770" referredColumn="E948A7A2-5D46-F871-491A-3FE5B9DAD181"/>
+</associations>
+</Column>
+<Column name="Klient_ID" id="5BA048F5-F377-157E-68A3-0F4E913B697A">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>2590623A-FFDC-3135-5747-1BD780458C6D</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2455460E-5B99-4CE0-9108-D1483BE24C27" referredColumn="69AE7BE7-1E23-FB7F-71F5-DF39C46F3373"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFA5FA6A-27C2-37D4-C20A-236D8737D864" name="Usługa_serwisowa_PK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>B72203E7-4320-921E-E3C8-9DE0D28B995D</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66DD1F3C-AC11-0255-4E83-9F20F23022A4"/>
+<colUsage columnID="DFE8B419-8C78-15B3-E568-578DF7A47C0E"/>
+<colUsage columnID="5BA048F5-F377-157E-68A3-0F4E913B697A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="969C93CB-42B5-4F52-C25B-6A9A5FFA306E" name="Usługa_serwisowa_ID1_UN">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>1AACB2D3-AA62-8B13-241A-FAE2A9044652</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66DD1F3C-AC11-0255-4E83-9F20F23022A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="457421FD-A974-46F4-D71F-A70F4C44861A" name="Usługa_serwisowa_ID2_UN">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>3C8055D5-123D-9B5A-E9AE-6512265FEE0C</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFE8B419-8C78-15B3-E568-578DF7A47C0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8AD0B33-AEFF-8208-3105-55DDE72A0914" name="Usługa_serwisowa_ID_UN">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>FC03FA87-6102-AC93-4A2F-D27509FE9509</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BA048F5-F377-157E-68A3-0F4E913B697A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DA178D3-D7D8-31A0-2C56-55697811603C" name="Usługa_serwisowa__UN">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>4B252BD3-B26D-A31F-A4B3-B843DFA1A022</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="CCBA5627-F7DF-1B89-F8D6-E1D583EA1DA6" name="Usługa_serwisowa_Klient_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>EC10D5E3-A453-76FE-D3E8-D44159A2075E</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BA048F5-F377-157E-68A3-0F4E913B697A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="095B0A16-A4C6-E029-052B-A72D573F6190" name="Usługa_serwisowa_Samochód_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>9D3B2CC4-C1DA-87BC-8416-E4B98207A841</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFE8B419-8C78-15B3-E568-578DF7A47C0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7957D9EC-DE60-5D66-6009-712AD4505836" name="Usługa_serwisowa_Pracownik_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:14 UTC</createdTime>
+<generatorID>1912C92C-9B74-3BEC-E82B-8029E13B370A</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66DD1F3C-AC11-0255-4E83-9F20F23022A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

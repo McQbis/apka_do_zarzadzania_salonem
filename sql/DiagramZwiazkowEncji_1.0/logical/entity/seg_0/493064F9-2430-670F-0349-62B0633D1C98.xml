@@ -4,7 +4,7 @@
 <createdTime>2023-11-09 18:25:44 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-11-09 19:29:23 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2023-11-09 19:30:31 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -40,38 +40,12 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Samochód" id="8E751F47-4DD1-F605-00CF-3A56D28EF765">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:29:36 UTC</createdTime>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Klient" id="4B724EA5-B0C4-D731-8E87-82799F76BC9E">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:30:04 UTC</createdTime>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Wartość zamówienia" id="617B1BBA-E5BE-1008-22A7-7FEF586FE290">
 <createdBy>kubis</createdBy>
 <createdTime>2023-11-09 19:30:46 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -88,7 +62,7 @@
 <createdTime>2023-11-09 19:29:32 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -100,24 +74,16 @@
 <createdTime>2023-11-09 19:31:20 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
-<newElementsIDs>8E751F47-4DD1-F605-00CF-3A56D28EF765</newElementsIDs>
-<usedAttributes>
-<attributeRef>8E751F47-4DD1-F605-00CF-3A56D28EF765</attributeRef>
-</usedAttributes>
 </identifier>
 <identifier id="48FAC50C-FE08-8025-4754-E02CA6F313BD" name="Klient">
 <createdBy>kubis</createdBy>
 <createdTime>2023-11-09 19:31:36 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
-<newElementsIDs>4B724EA5-B0C4-D731-8E87-82799F76BC9E</newElementsIDs>
-<usedAttributes>
-<attributeRef>4B724EA5-B0C4-D731-8E87-82799F76BC9E</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

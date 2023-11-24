@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7263999-1B37-D0D5-398D-EE6787CDF24D" name="Rodzaj_samochodu">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>1D180A57-F365-8A23-93EE-464F941F425A</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rodzaj" id="BFAA0437-2109-D475-813D-3A5CCDB0066E">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>A46B1D18-D4ED-667D-81B6-B27159C42A39</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="350111CA-1A41-E986-D380-4804E773D243" name="Rodzaj_samochodu_PK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>762CE738-2B3C-D548-24D2-7A18AED93D1D</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

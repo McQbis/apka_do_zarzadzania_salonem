@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFCFAF67-5E61-0EE6-CDA4-C496DD5A45E9" name="Zamówienie">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>493064F9-2430-670F-0349-62B0633D1C98</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0CC368A0-1942-07CF-4506-80AA9F3633B6">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>335DB2E6-60BA-DF98-95A5-E4DEFFF8F494</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data" id="0900F087-F7FF-6C7B-497A-7832FD40E291">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>63A45EC9-7807-BC5F-FED3-98DB9DD0DB8A</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wartość_zamówienia" id="9E5B1FF2-D415-1FFE-6A28-9279A10E40C7">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>617B1BBA-E5BE-1008-22A7-7FEF586FE290</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,50,50</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5FE1346-D3F4-D71E-9E4F-992857486D58" name="Zamówienie_PK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>BA34D1AB-D85C-70C0-1966-F4146142B1FF</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CC368A0-1942-07CF-4506-80AA9F3633B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="508E0E4E-3943-2B4E-E27C-9596C1DEB5E1" name="Zamówienie__UN">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>285FF50C-CE45-6823-B20D-05005DDC3B67</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="1C1EF74E-BEA0-524D-EE3D-891DB6FB0FCB" name="Zamówienie__UNv1">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>48FAC50C-FE08-8025-4754-E02CA6F313BD</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

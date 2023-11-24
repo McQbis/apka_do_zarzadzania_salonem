@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43F71B78-1DAE-165B-AD05-B63037E65C63" name="Klient_zamowienia_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zamówienie_ID" id="E22E34E5-D68A-7520-C02C-33347A421592">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19C3637C-C0F3-2273-8058-ADF24A9C51D8" referredColumn="0CC368A0-1942-07CF-4506-80AA9F3633B6"/>
+</associations>
+</Column>
+<Column name="Klient_ID" id="E995B320-770D-A39D-11C8-89119A17AB80">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B323AECC-6D11-5B4A-2517-3859AE59ECBB" referredColumn="69AE7BE7-1E23-FB7F-71F5-DF39C46F3373"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B3DBFD9-2CD8-1FF1-BFCA-9A91B2BFDDF2" name="Klient_zamowienia_FK_PK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E22E34E5-D68A-7520-C02C-33347A421592"/>
+<colUsage columnID="E995B320-770D-A39D-11C8-89119A17AB80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CCD8320-9F31-AEA4-295E-C0F6CD0DCF16" name="Klient_zamowienia_FK_Zamówienie_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>8A3BB4CE-E12D-C4F3-7D5A-9FCBC49656AC</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E22E34E5-D68A-7520-C02C-33347A421592"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C18DECA-3FBD-7A51-2C5F-A21DBCADB479" name="Klient_zamowienia_FK_Klient_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>8A3BB4CE-E12D-C4F3-7D5A-9FCBC49656AC</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E995B320-770D-A39D-11C8-89119A17AB80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -4,7 +4,7 @@
 <createdTime>2023-11-09 18:25:10 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="A5160A81-BBF1-1D93-A147-8572D9A4C3FB">
+<Attribute name="ID" id="A7577EB1-5597-F6E7-D5A4-F05B4603092E">
 <createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:13:52 UTC</createdTime>
+<createdTime>2023-11-24 09:45:35 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2023-11-09 19:14:13 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +46,7 @@
 <createdTime>2023-11-09 19:14:36 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +60,7 @@
 <createdTime>2023-11-09 19:14:51 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,7 +74,7 @@
 <createdTime>2023-11-09 19:15:12 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -88,7 +88,7 @@
 <createdTime>2023-11-09 19:15:31 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -103,11 +103,11 @@
 <createdTime>2023-11-09 19:13:57 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A5160A81-BBF1-1D93-A147-8572D9A4C3FB</attributeRef>
+<attributeRef>A7577EB1-5597-F6E7-D5A4-F05B4603092E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -4,7 +4,7 @@
 <createdTime>2023-11-09 18:26:27 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,24 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="D06B1FFD-30B7-4B72-EF14-948586750AD5">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:28:15 UTC</createdTime>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Rodzaj" id="A46B1D18-D4ED-667D-81B6-B27159C42A39">
 <createdBy>kubis</createdBy>
 <createdTime>2023-11-09 19:28:35 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,12 +36,9 @@
 <createdTime>2023-11-09 19:28:28 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>D06B1FFD-30B7-4B72-EF14-948586750AD5</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

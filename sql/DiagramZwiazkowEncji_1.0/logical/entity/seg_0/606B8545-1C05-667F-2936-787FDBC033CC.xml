@@ -4,7 +4,7 @@
 <createdTime>2023-11-09 18:24:09 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,63 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="78B19BDD-E913-A009-8B7F-20AAFBF82F90">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 18:59:34 UTC</createdTime>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Serwisant" id="ECA4BB4C-FAD8-11BA-F93B-B35DD60BCBB5">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:00:07 UTC</createdTime>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Samochód" id="357F0E13-DD49-4147-2E9C-CAC01DD261C4">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:00:31 UTC</createdTime>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Klient" id="28649DEB-413C-7818-5E3F-BE994603D000">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:00:48 UTC</createdTime>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Opis" id="64A91321-691E-5B73-42A4-EA0C1C513505">
 <createdBy>kubis</createdBy>
 <createdTime>2023-11-09 19:02:07 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -85,7 +34,7 @@
 <createdTime>2023-11-09 19:02:30 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -95,25 +44,12 @@
 <dataTypeScale>50</dataTypeScale>
 <ownDataTypeParameters>,50,50</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Użyte Części" id="0DA590B8-A931-0061-FEE9-9F147D059964">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:03:35 UTC</createdTime>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Czas naprawy" id="25E686A3-9D97-90A8-C559-932CBE1A912E">
 <createdBy>kubis</createdBy>
 <createdTime>2023-11-09 19:04:12 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -127,23 +63,9 @@
 <generatorID>1912C92C-9B74-3BEC-E82B-8029E13B370A</generatorID>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <referedAttribute>ECAFECDF-39E7-C106-FE2F-5D7B017B87DE</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID11" id="80BAD14F-C256-0851-1813-B8C60DB45BB0">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:08:06 UTC</createdTime>
-<generatorID>1912C92C-9B74-3BEC-E82B-8029E13B370A</generatorID>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<referedAttribute>919A006B-3A45-1F2F-29CF-EC310F2CD8E8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -155,7 +77,7 @@
 <generatorID>9D3B2CC4-C1DA-87BC-8416-E4B98207A841</generatorID>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <referedAttribute>657164AB-9FAF-6132-1BFA-0A761FA03634</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -163,58 +85,15 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID3" id="CC940D28-F2C3-F434-1513-4369046DF147">
+<Attribute name="ID" id="2590623A-FFDC-3135-5747-1BD780458C6D">
 <createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:16:26 UTC</createdTime>
+<createdTime>2023-11-24 09:46:18 UTC</createdTime>
 <generatorID>EC10D5E3-A453-76FE-D3E8-D44159A2075E</generatorID>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
-<referedAttribute>A5160A81-BBF1-1D93-A147-8572D9A4C3FB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID12" id="56CD9E80-3812-0326-51F1-CB1EE79582C9">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:25:56 UTC</createdTime>
-<generatorID>9D3B2CC4-C1DA-87BC-8416-E4B98207A841</generatorID>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<referedAttribute>6E287EAC-B4D2-C215-2183-49A20EBBF48F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID21" id="FC83C1B9-365D-BA79-6F92-B6FAF148189D">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:27:52 UTC</createdTime>
-<generatorID>9D3B2CC4-C1DA-87BC-8416-E4B98207A841</generatorID>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<referedAttribute>A945AEE4-8A37-9ACD-58EE-EC83D3CE9C30</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID31" id="22C6370C-D1D5-0B08-36AB-083EEB0AE037">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:28:53 UTC</createdTime>
-<generatorID>9D3B2CC4-C1DA-87BC-8416-E4B98207A841</generatorID>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<referedAttribute>DE28CB5E-0FF1-D9B9-B34E-B1F11F93D9D5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
+<referedAttribute>A7577EB1-5597-F6E7-D5A4-F05B4603092E</referedAttribute>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -226,18 +105,13 @@
 <createdTime>2023-11-09 18:59:38 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>78B19BDD-E913-A009-8B7F-20AAFBF82F90</attributeRef>
 <attributeRef>E3DFB2A4-FD7C-86A1-73EF-AF9E159FE01F</attributeRef>
-<attributeRef>80BAD14F-C256-0851-1813-B8C60DB45BB0</attributeRef>
 <attributeRef>D50B4A56-72B7-B53C-7159-ED7025E480B2</attributeRef>
-<attributeRef>56CD9E80-3812-0326-51F1-CB1EE79582C9</attributeRef>
-<attributeRef>FC83C1B9-365D-BA79-6F92-B6FAF148189D</attributeRef>
-<attributeRef>22C6370C-D1D5-0B08-36AB-083EEB0AE037</attributeRef>
-<attributeRef>CC940D28-F2C3-F434-1513-4369046DF147</attributeRef>
+<attributeRef>2590623A-FFDC-3135-5747-1BD780458C6D</attributeRef>
 </usedAttributes>
 </identifier>
 <identifier id="1AACB2D3-AA62-8B13-241A-FAE2A9044652" name="Serwisant">
@@ -245,11 +119,11 @@
 <createdTime>2023-11-09 19:06:05 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
-<newElementsIDs>ECA4BB4C-FAD8-11BA-F93B-B35DD60BCBB5</newElementsIDs>
+<newElementsIDs>1912C92C-9B74-3BEC-E82B-8029E13B370A</newElementsIDs>
 <usedAttributes>
-<attributeRef>ECA4BB4C-FAD8-11BA-F93B-B35DD60BCBB5</attributeRef>
+<attributeRef>E3DFB2A4-FD7C-86A1-73EF-AF9E159FE01F</attributeRef>
 </usedAttributes>
 </identifier>
 <identifier id="3C8055D5-123D-9B5A-E9AE-6512265FEE0C" name="Samochód">
@@ -257,11 +131,11 @@
 <createdTime>2023-11-09 19:06:26 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
-<newElementsIDs>357F0E13-DD49-4147-2E9C-CAC01DD261C4</newElementsIDs>
+<newElementsIDs>9D3B2CC4-C1DA-87BC-8416-E4B98207A841</newElementsIDs>
 <usedAttributes>
-<attributeRef>357F0E13-DD49-4147-2E9C-CAC01DD261C4</attributeRef>
+<attributeRef>D50B4A56-72B7-B53C-7159-ED7025E480B2</attributeRef>
 </usedAttributes>
 </identifier>
 <identifier id="FC03FA87-6102-AC93-4A2F-D27509FE9509" name="Klient">
@@ -269,11 +143,11 @@
 <createdTime>2023-11-09 19:06:51 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
-<newElementsIDs>28649DEB-413C-7818-5E3F-BE994603D000</newElementsIDs>
+<newElementsIDs>EC10D5E3-A453-76FE-D3E8-D44159A2075E</newElementsIDs>
 <usedAttributes>
-<attributeRef>28649DEB-413C-7818-5E3F-BE994603D000</attributeRef>
+<attributeRef>2590623A-FFDC-3135-5747-1BD780458C6D</attributeRef>
 </usedAttributes>
 </identifier>
 <identifier id="4B252BD3-B26D-A31F-A4B3-B843DFA1A022" name="Użyte części">
@@ -281,12 +155,9 @@
 <createdTime>2023-11-09 19:07:16 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
-<newElementsIDs>0DA590B8-A931-0061-FEE9-9F147D059964</newElementsIDs>
-<usedAttributes>
-<attributeRef>0DA590B8-A931-0061-FEE9-9F147D059964</attributeRef>
-</usedAttributes>
+<newElementsIDs>B46AADF9-8F89-86A3-9FED-2E233804FDED</newElementsIDs>
 </identifier>
 </identifiers>
 </Entity>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D494B8F1-03DE-087F-7A72-C1994D50A005" name="Części_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usługa_serwisowa_ID1" id="13248C19-8338-26A6-2322-AFC47686A62D">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70E1F29D-F6F2-1C85-38F5-E99032C786DF" referredColumn="66DD1F3C-AC11-0255-4E83-9F20F23022A4"/>
+</associations>
+</Column>
+<Column name="Usługa_serwisowa_ID2" id="CE4CB67E-46CA-5BBA-2334-A3079E79E372">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70E1F29D-F6F2-1C85-38F5-E99032C786DF" referredColumn="DFE8B419-8C78-15B3-E568-578DF7A47C0E"/>
+</associations>
+</Column>
+<Column name="Usługa_serwisowa_ID" id="BFF46991-FDAF-6DAD-8B44-E99E781BA25E">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70E1F29D-F6F2-1C85-38F5-E99032C786DF" referredColumn="5BA048F5-F377-157E-68A3-0F4E913B697A"/>
+</associations>
+</Column>
+<Column name="Część_ID" id="AF2E99D4-3111-C9CF-BE9E-C1BC11D16FC8">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63BB8335-BA77-4E22-9719-47AEEF27DDE2" referredColumn="F731EBF3-A9D9-33ED-5D5D-0C76B76F6F6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95079077-32BE-D2CF-CA63-1A510073D1F4" name="Części_FK_PK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13248C19-8338-26A6-2322-AFC47686A62D"/>
+<colUsage columnID="CE4CB67E-46CA-5BBA-2334-A3079E79E372"/>
+<colUsage columnID="BFF46991-FDAF-6DAD-8B44-E99E781BA25E"/>
+<colUsage columnID="AF2E99D4-3111-C9CF-BE9E-C1BC11D16FC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABABF8B0-2082-F921-2E61-364C83496B47" name="Części_FK_Usługa_serwisowa_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>B46AADF9-8F89-86A3-9FED-2E233804FDED</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13248C19-8338-26A6-2322-AFC47686A62D"/>
+<colUsage columnID="CE4CB67E-46CA-5BBA-2334-A3079E79E372"/>
+<colUsage columnID="BFF46991-FDAF-6DAD-8B44-E99E781BA25E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30BC0333-5060-1E43-C2CB-4797EC0F76E7" name="Części_FK_Część_FK">
+<createdBy>kubis</createdBy>
+<createdTime>2023-11-24 09:48:13 UTC</createdTime>
+<generatorID>B46AADF9-8F89-86A3-9FED-2E233804FDED</generatorID>
+<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF2E99D4-3111-C9CF-BE9E-C1BC11D16FC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

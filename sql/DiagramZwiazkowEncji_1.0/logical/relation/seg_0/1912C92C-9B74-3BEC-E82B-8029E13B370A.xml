@@ -4,10 +4,10 @@
 <createdTime>2023-11-09 19:08:06 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <sourcePk>C492F9FB-34A5-7CF8-28C9-87369E15A969</sourcePk>
-<targetPk>B72203E7-4320-921E-E3C8-9DE0D28B995D</targetPk>
+<targetPk>1AACB2D3-AA62-8B13-241A-FAE2A9044652</targetPk>
 <identifying>true</identifying>
 <nameOnSource>jest przypisana</nameOnSource>
 <nameOnTarget>jest przypisany</nameOnTarget>

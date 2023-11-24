@@ -4,7 +4,7 @@
 <createdTime>2023-11-09 18:25:53 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,21 +20,8 @@
 <createdTime>2023-11-09 19:09:12 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Marka" id="84933579-54F2-F55D-13C8-5DDA235DD3D1">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:21:31 UTC</createdTime>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -45,7 +32,7 @@
 <createdTime>2023-11-09 19:09:40 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,20 +46,7 @@
 <createdTime>2023-11-09 19:09:58 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Silnik" id="838F21D1-B270-3545-EC49-535CBFFFEF6D">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:10:28 UTC</createdTime>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -85,7 +59,7 @@
 <createdTime>2023-11-09 19:10:45 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -98,20 +72,7 @@
 <createdTime>2023-11-09 19:11:09 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Rodzaj" id="B45A05A2-1AEE-AD19-D2F8-963D9E3B90E3">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:11:38 UTC</createdTime>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -124,7 +85,7 @@
 <createdTime>2023-11-09 19:12:18 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -134,48 +95,6 @@
 <dataTypeScale>50</dataTypeScale>
 <ownDataTypeParameters>,50,50</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="6E287EAC-B4D2-C215-2183-49A20EBBF48F">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:25:56 UTC</createdTime>
-<generatorID>B94997B2-2869-5C98-1C6E-F876751766BD</generatorID>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<referedAttribute>E2070BBB-3BF7-65F9-1A81-8BE608A2B95F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID2" id="A945AEE4-8A37-9ACD-58EE-EC83D3CE9C30">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:27:52 UTC</createdTime>
-<generatorID>2629A2C4-3F77-EAF7-550F-7DF4DDE3E9E5</generatorID>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<referedAttribute>4864DDDE-4771-60BF-D0EE-38AFF3F3CA2C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID3" id="DE28CB5E-0FF1-D9B9-B34E-B1F11F93D9D5">
-<createdBy>kubis</createdBy>
-<createdTime>2023-11-09 19:28:53 UTC</createdTime>
-<generatorID>084FF6EC-8FE5-E1F1-2B70-024575AD461D</generatorID>
-<ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
-<engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
-</engineerTo>
-<referedAttribute>D06B1FFD-30B7-4B72-EF14-948586750AD5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5A9486C3-01B3-8ACE-121A-3D680CE10639" name="Samochody PK">
@@ -183,14 +102,11 @@
 <createdTime>2023-11-09 19:09:15 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>657164AB-9FAF-6132-1BFA-0A761FA03634</attributeRef>
-<attributeRef>6E287EAC-B4D2-C215-2183-49A20EBBF48F</attributeRef>
-<attributeRef>A945AEE4-8A37-9ACD-58EE-EC83D3CE9C30</attributeRef>
-<attributeRef>DE28CB5E-0FF1-D9B9-B34E-B1F11F93D9D5</attributeRef>
 </usedAttributes>
 </identifier>
 <identifier id="E02B2709-8622-E41A-7F92-0AABCB956F64" name="Marka">
@@ -198,36 +114,24 @@
 <createdTime>2023-11-09 19:22:49 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
-<newElementsIDs>84933579-54F2-F55D-13C8-5DDA235DD3D1</newElementsIDs>
-<usedAttributes>
-<attributeRef>84933579-54F2-F55D-13C8-5DDA235DD3D1</attributeRef>
-</usedAttributes>
 </identifier>
 <identifier id="F675AF60-B035-9FF8-2328-005AE5D27074" name="Silnik">
 <createdBy>kubis</createdBy>
 <createdTime>2023-11-09 19:23:08 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
-<newElementsIDs>838F21D1-B270-3545-EC49-535CBFFFEF6D</newElementsIDs>
-<usedAttributes>
-<attributeRef>838F21D1-B270-3545-EC49-535CBFFFEF6D</attributeRef>
-</usedAttributes>
 </identifier>
 <identifier id="AEE7E39F-DF34-13D5-5BA7-A14E6EBB8BD5" name="Rodzaj">
 <createdBy>kubis</createdBy>
 <createdTime>2023-11-09 19:23:26 UTC</createdTime>
 <ownerDesignName>DiagramZwiazkowEncji_1.0</ownerDesignName>
 <engineerTo>
-<item key="291F44E6-111F-B101-828D-2685398CAFE3" value="true"/>
+<item key="D3D11A70-CDD9-57FC-E7EC-183034E143F2" value="true"/>
 </engineerTo>
-<newElementsIDs>B45A05A2-1AEE-AD19-D2F8-963D9E3B90E3</newElementsIDs>
-<usedAttributes>
-<attributeRef>B45A05A2-1AEE-AD19-D2F8-963D9E3B90E3</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
