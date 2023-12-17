@@ -102,7 +102,7 @@ CREATE TABLE stanowisko (
 CREATE TABLE usluga_serwisowa (
     opis         VARCHAR2(200),
     wartosc      NUMBER(10, 2),
-    czas_naprawy DATE,
+    czas_naprawy INTEGER NOT NULL,
     pracownik_id INTEGER NOT NULL,
     samochod_id  INTEGER NOT NULL,
     klient_id    INTEGER NOT NULL
@@ -163,6 +163,82 @@ ALTER TABLE usluga_serwisowa
 ALTER TABLE usluga_serwisowa
     ADD CONSTRAINT usluga_serwisowa_samochod_fk FOREIGN KEY ( samochod_id )
         REFERENCES samochod ( id );
+
+--dodanie stanowisko_id
+ALTER TABLE pracownik
+ADD stanowisko_id VARCHAR2(100) NOT NULL;
+
+ALTER TABLE stanowisko ADD CONSTRAINT stanowisko_pk PRIMARY KEY (nazwa);
+
+ALTER TABLE pracownik
+ADD CONSTRAINT FK_Stanowisko
+FOREIGN KEY (stanowisko_id) REFERENCES Stanowisko(nazwa);
+
+--tworzy usluge serwisowa
+CREATE PROCEDURE create_usluga_serwisowa (p_opis IN VARCHAR, p_wartosc IN NUMBER, p_czas_naprawy IN NUMBER, p_pracownik_id IN NUMBER, p_samochod_id IN NUMBER, p_klient_id IN NUMBER) IS
+BEGIN
+    INSERT INTO usluga_serwisowa(OPIS, WARTOSC, CZAS_NAPRAWY, PRACOWNIK_ID, SAMOCHOD_ID, KLIENT_ID)  VALUES (p_opis, p_wartosc, p_czas_naprawy, p_pracownik_id, p_samochod_id, p_klient_id);
+END;
+/
+--informacje o usludze
+CREATE FUNCTION get_usluga(p_samochod_id IN NUMBER)
+    RETURN usluga_serwisowa%ROWTYPE IS
+    vRow usluga_serwisowa%ROWTYPE;
+BEGIN 
+    SELECT * INTO vROW FROM usluga_serwisowa WHERE samochod_id = p_samochod_id;
+    RETURN vRow;
+END;
+/
+--zwraca ilosc_h*placa
+
+CREATE FUNCTION working_time(pracownik IN NUMBER, samochod IN NUMBER, klient IN NUMBER)
+RETURN FLOAT IS
+    emp_time usluga_serwisowa.wartosc%TYPE := 0;
+    pay stanowisko.stawka_za_godzine%TYPE;
+BEGIN 
+    SELECT czas_naprawy INTO emp_time
+    FROM usluga_serwisowa
+    WHERE pracownik_id=pracownik AND samochod_id=samochod AND klient_id=klient;
+    
+    SELECT stawka_za_godzine INTO pay
+    FROM stanowisko
+    WHERE nazwa = (SELECT stanowisko_id FROM pracownik WHERE id=pracownik);
+
+    return emp_time*pay;
+END;
+
+/
+--zwraca sume kosztow czesci
+CREATE FUNCTION cost(pracownik IN NUMBER, samochod IN NUMBER, klient IN NUMBER)
+RETURN FLOAT IS
+    parts_sum_cost czesc.cena%TYPE := 0;
+    part_id NUMBER;
+    part_cost czesc.cena%TYPE;
+BEGIN 
+    FOR part_rec IN (SELECT * FROM czesci_fk WHERE usluga_serwisowa_id1=pracownik AND usluga_serwisowa_id2=samochod AND usluga_serwisowa_id=klient) LOOP
+        part_id := part_rec.czesc_id;
+        
+        SELECT cena INTO part_cost
+        FROM czesc
+        WHERE id = part_id;
+        
+        parts_sum_cost := parts_sum_cost + part_cost;
+    END LOOP;
+    
+    RETURN parts_sum_cost;
+END;
+/
+--usuwanie uslugi
+CREATE PROCEDURE delete_usluga(p_pracownik_id IN NUMBER, p_klient_id IN NUMBER, p_samochod_id IN NUMBER) IS
+BEGIN
+    DELETE FROM samochod WHERE id = p_samochod_id;
+    DELETE FROM czesc WHERE id IN (SELECT czesc_id FROM czesci_fk WHERE usluga_serwisowa_id1=p_pracownik_id AND usluga_serwisowa_id2=p_samochod_id AND usluga_serwisowa_id=p_klient_id); 
+    DELETE FROM czesci_fk WHERE usluga_serwisowa_id1=p_pracownik_id AND usluga_serwisowa_id2=p_samochod_id AND usluga_serwisowa_id=p_klient_id; 
+    DELETE FROM usluga_serwisowa WHERE samochod_id = p_samochod_id AND klient_id = p_klient_id AND samochod_id = p_samochod_id; 
+END;
+
+
+
 
 
 
