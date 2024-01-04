@@ -24,6 +24,8 @@ CREATE TABLE czesc (
     rok_produkcji INTEGER
 );
 
+
+CREATE UNIQUE INDEX indeks_czesc ON czesc(id);
 ALTER TABLE czesc ADD CONSTRAINT czesc_pk PRIMARY KEY ( id );
 
 CREATE TABLE klient (
@@ -35,6 +37,7 @@ CREATE TABLE klient (
     numer_telefonu INTEGER
 );
 
+CREATE UNIQUE INDEX indeks_klient ON klient(id);
 ALTER TABLE klient ADD CONSTRAINT klient_pk PRIMARY KEY ( id );
 
 CREATE TABLE klient_zamowienia_fk (
@@ -61,6 +64,7 @@ CREATE TABLE pracownik (
     doswiadczenie  VARCHAR2(100)
 );
 
+CREATE UNIQUE INDEX indeks_pracownik ON pracownik(id);
 ALTER TABLE pracownik ADD CONSTRAINT pracownik_pk PRIMARY KEY ( id );
 
 
@@ -77,6 +81,7 @@ CREATE TABLE samochod (
     cena          NUMBER(10, 2)
 );
 
+CREATE UNIQUE INDEX indeks_samochod ON samochod(id);
 ALTER TABLE samochod ADD CONSTRAINT samochod_pk PRIMARY KEY ( id );
 
 
@@ -121,6 +126,7 @@ CREATE TABLE zamowienie (
     wartosc_zamowienia NUMBER(10, 2)
 );
 
+CREATE UNIQUE INDEX indeks_zamowienie ON zamowienie(id);
 ALTER TABLE zamowienie ADD CONSTRAINT zamowienie_pk PRIMARY KEY ( id );
 
 
@@ -236,11 +242,6 @@ BEGIN
     DELETE FROM czesci_fk WHERE usluga_serwisowa_id1=p_pracownik_id AND usluga_serwisowa_id2=p_samochod_id AND usluga_serwisowa_id=p_klient_id; 
     DELETE FROM usluga_serwisowa WHERE samochod_id = p_samochod_id AND klient_id = p_klient_id AND samochod_id = p_samochod_id; 
 END;
-
-
-
-
-
 
 
 

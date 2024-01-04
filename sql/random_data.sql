@@ -31,7 +31,14 @@ FROM DUAL
 CONNECT BY LEVEL <= 10;
 
 
-INSERT INTO pracownik (id, imie, nazwisko, adres, mail, numer_telefonu, doswiadczenie)
+INSERT INTO stanowisko (nazwa, stawka_za_godzine)
+SELECT
+    'Stanowisko_' || LEVEL,
+    ROUND(DBMS_RANDOM.VALUE(20, 50), 2)
+FROM DUAL
+CONNECT BY LEVEL <= 10;
+
+INSERT INTO pracownik (id, imie, nazwisko, adres, mail, numer_telefonu, doswiadczenie, stanowisko_id)
 SELECT
     pracownik_seq.nextval,
     'Imie_pracownik_' || LEVEL,
@@ -39,7 +46,8 @@ SELECT
     'Adres_pracownik_' || LEVEL,
     'pracownik' || LEVEL || '@firmaprzedsiebiorstwo.com',
     ROUND(DBMS_RANDOM.VALUE(100000000, 999999999)),
-    'Doswiadczenie_' || LEVEL
+    'Doswiadczenie_' || LEVEL,
+    'Stanowisko_' || LEVEL
 FROM DUAL
 CONNECT BY LEVEL <= 10;
 
@@ -63,10 +71,18 @@ CONNECT BY LEVEL <= 10;
 
 CREATE SEQUENCE sam_zam_seq START WITH 1 INCREMENT BY 1;
 
+INSERT INTO zamowienie (id, data, wartosc_zamowienia)
+SELECT
+    zamowienie_seq.nextval,
+    TO_DATE('2023-01-01', 'YYYY-MM-DD') + LEVEL,
+    ROUND(DBMS_RANDOM.VALUE(100, 500), 2)
+FROM DUAL
+CONNECT BY LEVEL <= 10;
+
 INSERT INTO samochod_zamowienia_fk (samochod_id, zamowienia_id)
 SELECT
     sam_zam_seq.nextval,
-    ROUND(DBMS_RANDOM.VALUE(1, 10))
+    ROUND(DBMS_RANDOM.VALUE(1, 5))
 FROM DUAL
 CONNECT BY LEVEL <= 10;
 
@@ -81,28 +97,13 @@ SELECT
 FROM DUAL
 CONNECT BY LEVEL <= 10;
 
-INSERT INTO stanowisko (nazwa, stawka_za_godzine)
-SELECT
-    'Stanowisko_' || LEVEL,
-    ROUND(DBMS_RANDOM.VALUE(20, 50), 2)
-FROM DUAL
-CONNECT BY LEVEL <= 10;
-
 INSERT INTO usluga_serwisowa (opis, wartosc, czas_naprawy, pracownik_id, samochod_id, klient_id)
 SELECT
     'Opis_uslugi_' || LEVEL,
     ROUND(DBMS_RANDOM.VALUE(100, 1000), 2),
-    TO_DATE('2023-01-01', 'YYYY-MM-DD') + LEVEL,
+    ROUND(DBMS_RANDOM.VALUE(1, 10)),
     ROUND(DBMS_RANDOM.VALUE(1, 10)),
     LEVEL,
     ROUND(DBMS_RANDOM.VALUE(1, 10))
-FROM DUAL
-CONNECT BY LEVEL <= 10;
-
-INSERT INTO zamowienie (id, data, wartosc_zamowienia)
-SELECT
-    zamowienie_seq.nextval,
-    TO_DATE('2023-01-01', 'YYYY-MM-DD') + LEVEL,
-    ROUND(DBMS_RANDOM.VALUE(100, 500), 2)
 FROM DUAL
 CONNECT BY LEVEL <= 10;
